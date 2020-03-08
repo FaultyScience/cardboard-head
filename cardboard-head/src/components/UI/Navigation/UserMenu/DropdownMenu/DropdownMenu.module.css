@@ -1,0 +1,24 @@
+.DropdownMenu {
+  position: absolute;
+  top: 28px;
+  width: 100px;
+  font-weight: bold;
+  border: 2px solid;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.DropdownMenu:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 108px;
+  top: -7px;
+  left: -4px;
+  background-color: #fff;
+}
+
+.DropdownMenu ul {
+  position: relative;
+  z-index: 500;
+}

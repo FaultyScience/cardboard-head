@@ -1,0 +1,29 @@
+.NavigationItem {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.NavigationItem a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  height: 42px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  color: #637280;
+  vertical-align: middle;
+  transition: all 0.2s ease-out;
+}
+
+.NavigationItem a:hover {
+  color: #604020;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.NavigationItem:last-child {
+  border: none;
+}

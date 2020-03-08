@@ -1,0 +1,62 @@
+.Header {
+  margin: 20px 0 0 0;
+  text-align: right;
+}
+
+.LoginButton {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  height: 16px;
+  width: 40px;
+  text-align: center;
+}
+
+.LoginButton span {
+  display: inline-block;
+  margin-top: -10px;
+  color: #637280;
+  transition: all 0.2s ease-out;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.LoginButton span:hover {
+  color: #604020;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.Wrapper {
+  display: inline-block;
+  margin: 0 40px 0 0;
+  cursor: pointer;
+}
+
+.SignupButton {
+  margin: 0;
+  padding: 5px 10px;
+  height: 16px;
+  width: 60px;
+  background-color: #86592d;
+  border: 1px solid #4d3319;
+  border-radius: 5%;
+  transition: all 0.2s ease-out;
+  text-align: center;
+}
+
+.SignupButton span {
+  display: inline-block;
+  margin-top: -10px;
+  vertical-align: middle;
+}
+
+.Wrapper span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.SignupButton:hover {
+  background-color: #604020;
+  text-shadow: none;
+  transition: all 0.2s ease-out;
+}

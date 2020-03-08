@@ -1,0 +1,27 @@
+.PastGames {
+  margin: 50px 50px 0 50px;
+}
+
+.Spinner {
+  margin-top: 200px;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.GameList {
+  margin-bottom: 50px;
+  border: 2px solid #331a00;
+  cursor: pointer;
+}
+
+.NoGames {
+  margin-top: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}

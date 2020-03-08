@@ -1,0 +1,211 @@
+.HostGame {
+  margin: 50px 20px 0 20px;
+}
+
+.HostGame input[type="textbox"] {
+  padding-left: 4px;
+  font-size: 18px;
+  color: transparent;
+  text-shadow: 0 0 0 #637280;
+
+  &:focus {
+      outline: none;
+  }
+}
+
+.Asterisk {
+  font-weight: normal;
+  color: red;
+}
+
+.Small {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.Game h4, .Date h4, .Players h4, .Platform h4, .Server h4, .Discord h4,
+.Location h4, .Length h4, .Comments h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Game input, .Platform input, .Discord input {
+  margin: 8px 0 22px 0;
+  height: 36px;
+  width: 25%;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.Date div, .Players div, .Server div, .Location div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Location div:nth-child(4), .Location div:nth-child(5) {
+  margin-top: -1.5px;
+}
+
+.Location div:nth-child(7), .Location div:nth-child(9) {
+  margin-top: 20px;
+}
+
+.Date label, .Players label, .Server label, .Location label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Date select, .Players select, .Location select, .Length select {
+  margin: 4px 20px 0 0;
+  height: 20px;
+  width: 70px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.Date select {
+  width: 100px;
+}
+
+.Players select, .Location select, .Length select {
+  width: 126px;
+}
+
+.Server input[type="textbox"], .Location input[type="textbox"] {
+  margin: 4px 20px 0 0;
+  height: 20px;
+  width: 150px;
+  font-size: 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.Location input[type="textbox"] {
+  width: 170px;
+}
+
+.Comments textarea {
+  margin: 8px 0 0 0;
+  height: 300px;
+  width: 30%;
+  font-size: 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Game input:focus, .Platform input:focus, .Server input:focus,
+.Discord input:focus, .Location input:focus, .Comments input:focus {
+  border-width: 2px;
+  border-color: #86592d;
+}
+
+.Setting, .Date, .Players, .Platform, .Server, .Discord, .Location, .Length,
+.Comments {
+  margin-top: 40px;
+}
+
+.Setting, .Length, .Comments {
+  margin-bottom: 40px;
+}
+
+.Setting h4, .Players h4, .Server h4, .Location h4, .Length h4,
+.Comments h4 {
+  margin-bottom: 30px;
+}
+
+.Game h4, .Date h4, .Platform h4, .Discord h4 {
+  margin-bottom: 8px;
+}
+
+.Setting div {
+  margin-top: 20px;
+}
+
+.Setting input {
+  margin: -5px 10px 0 0;
+  vertical-align: middle;
+}
+
+.Line {
+  margin: 18px 60px 0 60px;
+  border-style: ridge;
+}
+
+.MiniSpinner {
+  margin: -4px 0 0 -16px;
+}
+
+.PostButton, .Posting {
+  margin: 0;
+  padding: 5px 10px;
+  height: 100%;
+  width: 100%;
+  background-color: #86592d;
+  border: 1px solid #4d3319;
+  border-radius: 5%;
+  transition: all 0.2s ease-out;
+  text-align: center;
+}
+
+.PostButton span, .Posting span {
+  display: inline-block;
+  margin-top: -10px;
+  vertical-align: middle;
+}
+
+.PostButtonWrapper span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.PostButton:hover {
+  background-color: #604020;
+  text-shadow: none;
+  transition: all 0.2s ease-out;
+}
+
+.Posting {
+  background-color: #604020;
+  text-shadow: none;
+}
+
+.Posting:hover {
+  cursor: default;
+}
+
+.PostButtonWrapper, .PostingButtonWrapper {
+  margin: 90px auto 40px auto;
+  height: 16px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.PostingButtonWrapper {
+  cursor: default;
+}
+
+.PostButton, .Posting {
+  margin-left: -10px;
+}
+
+.ErrorMsg {
+  margin: 4px 0 4px 0;
+  height: 14px;
+  color: red;
+  font-size: 14px;
+}
+
+.Game .ErrorFocus:focus, .Platform .ErrorFocus:focus, .Server .ErrorFocus:focus,
+.Discord .ErrorFocus:focus, .Location .ErrorFocus:focus,
+.Date .ErrorFocus:focus, .Players .ErrorFocus:focus {
+  border-width: 2px;
+  border-color: red;
+}

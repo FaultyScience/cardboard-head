@@ -1,0 +1,29 @@
+.ScheduledGameItem {
+  border-bottom: 1px solid #331a00;
+  padding: 10px;
+  color: #000;
+}
+
+.ScheduledGameItem:last-child {
+  border: none;
+}
+
+.ScheduledGameItem:nth-child(odd) {
+  background-color: #f2e6d9;
+}
+
+.ScheduledGameItem:nth-child(even) {
+  background-color: #e6ccb3;
+}
+
+.ScheduledGameItem:hover {
+  cursor: pointer;
+  background-color: #d2a679;
+}
+
+.ScheduledGameItem div {
+  display: inline-block;
+  margin-right: 20px;
+  width: 400px;
+  vertical-align: top;
+}

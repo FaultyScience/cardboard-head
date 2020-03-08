@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("./assets/fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("./assets/fonts/FiraSans-Book.otf");
+}
+
+.App {
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #637280;
+}

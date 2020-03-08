@@ -1,0 +1,22 @@
+.OuterWrapper {
+  margin: 20px;
+  border-top: 2px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.NavBar {
+  margin: 0 0 0 50px;
+  height: 50px;
+}
+
+.Wrapper {
+  width: 100%;
+}
+
+.NavBar ul {
+  display: inline-flex;
+  margin-top: 14px;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}

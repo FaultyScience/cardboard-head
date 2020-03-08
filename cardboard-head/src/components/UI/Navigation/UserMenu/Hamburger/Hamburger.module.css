@@ -1,0 +1,16 @@
+.Hamburger {
+    display: flex;
+    width: 40px;
+    height: 34px;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Hamburger div {
+    width: 90%;
+    height: 4px;
+    background-color: #637280;
+    border-radius: 10px;
+}

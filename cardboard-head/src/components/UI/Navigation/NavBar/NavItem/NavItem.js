@@ -1,0 +1,22 @@
+import React from "react";
+import { NavLink, withRouter } from "react-router-dom";
+
+import classes from "./NavItem.module.css";
+
+const navItem = (props) => {
+
+  return (
+
+    <li className={classes.NavItem}>
+      <NavLink
+        to={props.link}
+        exact={props.exact}
+        activeClassName={classes.active}
+      >
+        {props.children}
+      </NavLink>
+    </li>
+  );
+};
+
+export default withRouter(navItem);
